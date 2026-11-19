@@ -1,0 +1,22 @@
+{
+  "cloudProvider": "GCP",
+  "storageMode": "BLOB",
+  "database": {
+    "GCP": "CloudSQL",
+    "AZURE": "AzureSQL",
+    "AWS": "RDS"
+  },
+  "objectStorage": {
+    "GCP": "GCS",
+    "AZURE": "ADLS",
+    "AWS": "S3"
+  },
+  "upload": {
+    "maxFileSizeMB": 10,
+    "allowedTypes": [
+      "image/jpeg",
+      "image/png",
+      "image/webp"
+    ]
+  }
+}
